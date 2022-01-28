@@ -3,6 +3,8 @@ Escuela de Analista de Datos by PLATZI
 
 ## Curso de Análisis de Negocios para Ciencia de Datos
 
+## Curso de Fundamentos de Matemáticas
+
 ## Curso de Excel Básico
 
 ## Curso de Business Intelligence: Utilidad y Areas de oportunidad
