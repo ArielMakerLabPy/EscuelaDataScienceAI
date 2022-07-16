@@ -1,6 +1,8 @@
 # DataAnalyst
 Escuela de Analista de Datos by PLATZI
 
+## Cómo y Por qué aprender Data Science e Inteligencia Artificial
+
 ## Curso de Análisis de Negocios para Ciencia de Datos
 
 ## Curso de Fundamentos de Matemáticas
@@ -12,6 +14,8 @@ Escuela de Analista de Datos by PLATZI
 ## Curso de Principios de Visualización de Datos para Business Intelligence
 
 ## Curso de Fundamentos de Bases de Datos
+
+## Curso de ética y manejo de datos para Data Science e Inteligencia Artificial
 
 ## Curso de PostgreSQL
 
@@ -31,13 +35,15 @@ Escuela de Analista de Datos by PLATZI
 
 ## Curso Profesional de Git y GitHub
 
-## Curso de Programación Orientada a Objetos: POO
+## Curso de POO y algoritmos con python
 
 ## Curso de Python Intermedio: Comprehensions, Lambdas y Manejo de Errores
 
 ## Curso Profesional de Python
 
-## Curso de Manipulación y Análisis de Datos con Pandas y Python
+## Curso de Manipulación y Transformación de Datos con Pandas y NumPy
+
+## Curso Básico de Visualización de Datos con Matplotlib y Seaborn
 
 ## Curso de Funciones Matemáticas para Data Science e Inteligencia Artificial
 
@@ -58,5 +64,7 @@ Escuela de Analista de Datos by PLATZI
 ## Curso de Web Scraping: Extracción de Datos en la Web
 
 ## Curso de Scrapy
+
+## Curso de Estadística Inferencial para Data Science e Inteligencia Artificial
 
 ## Curso para Crear tus Proyectos de Ciencia de Datos
