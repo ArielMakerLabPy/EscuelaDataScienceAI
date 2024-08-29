@@ -44,3 +44,34 @@
 
 ### Curso de Estadística Inferencial para Data Science e Inteligencia Artificial
 
+### Curso de Fundamentos de Álgebra Lineal con Python
+
+### Curos de Álgebra Lineal Aplicada para Machine Learning
+
+### Curso de Regresión Lineal con Python y scikit-learn
+
+### Curso de Regresión Logística con Python y scikit-learn
+
+### Curso de Decision Trees y Random Forest con Python y scikit-learn
+
+### Curso de Clustering con Python y scikit-learn
+
+### Curso Profesional de Machine Learning con scikit-learn
+
+### Curso de Bases de Datos con SQL
+
+### Curso de PostgreSQL
+
+### Curso Práctico de SQL
+
+### Curso de PostgreSQL Aplicado a Ciencia de Datos
+
+### Curso de Herramientas de Inteligencia Artificial para Equipos de Datos
+
+### Curso para Crear tus Proyectos de Ciencia de Datos
+
+### Curso de MLOPS: Despliegue de Modelos de Machine Learning
+
+### Laboratorio de Machine Learning: Optimización de Modelos
+
+### Laboratorio de Machine Learning: Puesta en Producción de Modelos
