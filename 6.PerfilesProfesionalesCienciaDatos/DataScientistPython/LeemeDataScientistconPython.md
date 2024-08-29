@@ -9,3 +9,38 @@
 ### Curso de Introducción a la Terminal y Linea de Comandos
 
 ## Análisis de datos con Python
+
+### Curso de Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda
+
+### Curso de Principios de Visualización de Datos para Business Intelligence
+
+### Curso de Python para Ciencia de Datos
+
+### Curso de visualización de Datos con Matplotlib y Seaborn
+
+### Curso de Funciones Matemáticas para Data Science e Inteligencia Artificial
+
+### Curso de Matemáticas para Data Science: Estadística Descriptiva
+
+### Curso de Matemáticas para Data Science: Probabilidad
+
+### Curso de Análisis Exploratorio de Datos
+
+### Curso Profesional de Git y GitHub
+
+### Curso de Python: PIP y Entornos Virtuales
+
+### Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos
+
+### Curso de Manejo de Datos Faltantes: Detección y Exploración
+
+### Curso de Manejo de Datos Faltantes: Imputación
+
+## Machine learning con Python y bases de datos
+
+### Curso de Introducción a Machine Learning
+
+### Curso Básico de Cálculo Diferencial para Data Science e Inteligencia Artificial
+
+### Curso de Estadística Inferencial para Data Science e Inteligencia Artificial
+
