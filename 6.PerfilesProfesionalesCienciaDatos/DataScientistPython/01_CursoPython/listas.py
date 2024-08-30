@@ -52,3 +52,47 @@ matrix = [
     [7, 8, 9]
 ]
 print(matrix)
+print(matrix[0])
+
+matrix2 = [
+    [
+        [1, 2],
+        [3, 4]
+    ],
+    [
+        [5, 6],
+        [7, 8]
+    ]
+]
+
+print(matrix2[1][0][1])
+
+tupla = 11, 12, 13, 14
+print(type(tupla))
+
+numeros = {1:'uno', 2:'dos', 3:'tres'}
+print(numeros)
+print(type(numeros))
+print(numeros[3])
+
+informacion = {
+    'Nombre': 'Ariel',
+    'Apellido': 'Martinez',
+    'Altura': 1.82,
+    'Edad': 37
+}
+print(informacion)
+del informacion['Edad']
+print(informacion)
+
+claves = informacion.keys()
+print(claves)
+print(type(claves))
+
+valores = informacion.values()
+print(valores)
+print(type(valores))
+
+pares = informacion.items()
+print(pares)
+print(type(pares))
