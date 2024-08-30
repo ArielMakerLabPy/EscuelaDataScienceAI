@@ -1,4 +1,3 @@
-
 # Fundamendos de programación y Python
 
 ## ¿Porqué aprender python?
@@ -244,8 +243,10 @@ Con estos ejemplos y explicaciones adicionales, tendrás una comprensión más c
 
 ![alt text](image-1.png)
 
-
 ## Método slice
+
+![alt text](image-2.png)
+
 
 ## Listas de más dimensiones y tuplas
 
