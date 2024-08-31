@@ -249,8 +249,6 @@ Con estos ejemplos y explicaciones adicionales, tendrás una comprensión más c
 
 ## Listas de más dimensiones y tuplas
 
-
-
 Las matrices en Python son una herramienta poderosa que permite organizar datos en listas de listas, facilitando su manejo y manipulación.
 
 ### ¿Qué es una matriz en Python?
@@ -316,9 +314,7 @@ Intentar modificar una tupla genera un error:
 numbers[0] = 10  # Genera TypeError: 'tuple' object does not support item assignment
 ```
 
-
 ## Aplicación de matrices
-
 
 ### Aplicación de Matrices
 
@@ -344,7 +340,6 @@ chess_board = [
     ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
 ]print(chess_board)
 ```
-
 
 En este ejemplo, el 0 representa una casilla vacía.
 
@@ -386,7 +381,6 @@ checkers_board = [
 print(checkers_board)
 ```
 
-
 En este ejemplo, el 0 representa una casilla vacía, 'w' representa una pieza blanca, y 'b' representa una pieza negra. Las filas superiores e inferiores están llenas de piezas en sus posiciones iniciales, mientras que las filas centrales están vacías.
 
 #### Aplicación de Matrices a Imágenes
@@ -408,7 +402,6 @@ image = [
 print(image)
 ```
 
-
 En esta matriz, el 255 representa píxeles blancos y el 0 representa píxeles negros. Este patrón podría visualizarse como una “X” blanca sobre un fondo negro si se dibujara.
 
 ### Aplicaciones en Otros Campos
@@ -417,18 +410,14 @@ Las matrices se utilizan en muchos otros campos además de los juegos y las imá
 
 * Análisis de Datos: Las matrices se utilizan para almacenar y manipular grandes conjuntos de datos, realizar cálculos estadísticos y análisis de datos.
 * Inteligencia Artificial y Machine Learning: Las matrices son esenciales para representar datos de entrada y salida, pesos de redes neuronales y otros parámetros en algoritmos de aprendizaje automático.
-
 * Computación Científica: Las matrices se utilizan para resolver ecuaciones lineales, realizar simulaciones y modelar fenómenos científicos.
 * Gráficos por Computadora: Las matrices se utilizan para representar y transformar objetos en gráficos 2D y 3D.
 
 ***Las matrices son una herramienta poderosa que no solo facilita la representación de datos complejos, sino que también permite realizar operaciones y transformaciones avanzadas de manera eficiente. Al dominar el uso de matrices en Python, puedes abrir la puerta a un mundo de posibilidades en diversos campos de la ciencia, la ingeniería y la tecnología.***
 
-
 ## Diccionarios
 
-
 Los diccionarios en Python son una estructura que almacenan dos datos, la clave y el valor. Un ejemplo cotidiano es un diccionario físico donde buscamos el significado de una palabra y encontramos la palabra (clave) y su definición (valor). Veamos cómo se utilizan en código.
-
 
 ### ¿Cómo se crea un diccionario en Python?
 
@@ -486,10 +475,90 @@ contactos = {
 print(contactos["Carla"])
 ```
 
-
 # Control de flujo en python
 
+
 ## Estructuras condicionales
+
+
+
+En programación, las estructuras condicionales son esenciales para tomar decisiones basadas en ciertas condiciones. Por ejemplo, al usar la instrucción `IF` en Python, se puede verificar si una variable cumple con una condición específica y ejecutar el código correspondiente.
+
+### ¿Cómo se usa la estructura IF en Python?
+
+Para utilizar el `IF`, primero se define una variable, por ejemplo, `x = 10`. Luego, se escribe la estructura condicional usando la palabra reservada `IF` seguida de la condición, como `if x > 5:`. Si esta condición es verdadera, se ejecuta el código dentro del `IF`, que debe estar indentado.
+
+```python
+x = 10
+if x > 5:
+    print("x es mayor que 5")
+```
+
+### ¿Qué pasa si la condición del IF es falsa?
+
+Si la condición del `IF` no se cumple, se puede utilizar la instrucción `else` para manejar el caso contrario. Por ejemplo, si `x` es menor o igual a 5, se ejecutará el bloque de código dentro del `else`.
+
+```python
+x = 3
+if x > 5:
+    print("x es mayor que 5")
+else:
+    print("x es menor o igual a 5")
+```
+
+### ¿Cómo se manejan múltiples condiciones?
+
+Cuando hay múltiples condiciones, se puede usar `elif` (else if). Esto permite agregar condiciones adicionales entre `if` y `else`.
+
+```python
+x = 5
+if x > 5:
+    print("x es mayor que 5")
+elif x == 5:
+    print("x es igual a 5")
+else:
+    print("x es menor que 5")
+```
+
+### ¿Cómo se manejan múltiples condiciones en un solo IF?
+
+Para evaluar múltiples condiciones en una sola sentencia `IF`, se pueden utilizar los operadores lógicos `and` y `or`. El operador `and` requiere que ambas condiciones sean verdaderas, mientras que el operador `or` requiere que al menos una condición sea verdadera.
+
+```python
+x = 15
+y = 30
+if x > 10 and y > 25:
+    print("x es mayor que 10 y y es mayor que 25")
+if x > 10 or y > 35:
+    print("x es mayor que 10 o y es mayor que 35")
+```
+
+### ¿Qué es la negación en las condiciones?
+
+La palabra reservada `not` se utiliza para negar una condición. Si una condición es verdadera, `not` la convierte en falsa, y viceversa.
+
+```python
+x = 15
+if not x > 20:
+    print("x no es mayor que 20")
+```
+
+### ¿Cómo se anidan las estructuras IF?
+
+Los `IF` anidados permiten evaluar condiciones dentro de otras condiciones. Esto es útil para verificar múltiples niveles de requisitos.
+
+```python
+isMember = True
+age = 15
+if isMember:
+    if age >= 15:
+        print("Tienes acceso ya que eres miembro y mayor que 15")
+    else:
+        print("No tienes acceso ya que eres miembro, pero menor a 15 años")
+else:
+    print("No eres miembro y no tienes acceso")
+```
+
 
 ## Bucles y control de iteraciones
 
