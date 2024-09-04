@@ -477,10 +477,7 @@ print(contactos["Carla"])
 
 # Control de flujo en python
 
-
 ## Estructuras condicionales
-
-
 
 En programación, las estructuras condicionales son esenciales para tomar decisiones basadas en ciertas condiciones. Por ejemplo, al usar la instrucción `IF` en Python, se puede verificar si una variable cumple con una condición específica y ejecutar el código correspondiente.
 
@@ -559,8 +556,11 @@ else:
     print("No eres miembro y no tienes acceso")
 ```
 
-
 ## Bucles y control de iteraciones
+
+
+funciona
+
 
 ## Generadores e iteradores
 
