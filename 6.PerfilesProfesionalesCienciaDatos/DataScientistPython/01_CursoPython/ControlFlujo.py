@@ -63,3 +63,10 @@ for i in numbers:
     if i ==3:
         continue
     print("Aquí i es igual a:", i)
+
+while x3 < 5:
+    if x3 == 3:
+        continue
+
+    print(x3)
+    x3 += 1
