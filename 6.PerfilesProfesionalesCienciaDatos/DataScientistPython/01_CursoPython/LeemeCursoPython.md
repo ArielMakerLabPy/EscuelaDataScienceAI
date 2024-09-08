@@ -737,9 +737,10 @@ for numero in fibonacci(10):
 # Funciones y manejo de excepciones en python
 
 
-
-
 ## Uso de funciones en python
+
+
+
 
 ## Funciones Lambda y Programación funcional en python
 
