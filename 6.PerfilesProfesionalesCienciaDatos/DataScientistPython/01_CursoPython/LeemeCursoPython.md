@@ -638,7 +638,6 @@ for i in numbers:
 
 ## Generadores e iteradores
 
-
 Trabajar con iteradores y generadores en Python permite manejar grandes cantidades de datos de manera eficiente, sin necesidad de cargar todo en memoria.
 
 ### ¿Qué es un iterador y cómo se usa?
@@ -735,8 +734,10 @@ for numero in fibonacci(10):
     print(numero)
 ```
 
-
 # Funciones y manejo de excepciones en python
+
+
+
 
 ## Uso de funciones en python
 
