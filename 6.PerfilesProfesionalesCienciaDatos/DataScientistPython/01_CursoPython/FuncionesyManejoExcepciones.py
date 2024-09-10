@@ -69,3 +69,18 @@ def calculator():
 
 calculator()
 
+
+suma = lambda a, b: a + b
+print(suma(10, 4))
+
+multiplicacion = lambda a, b: a * b
+print(multiplicacion(10, 4))
+
+#Cuadrado de cada numero
+numeros = range(11)
+cuadrado_numeros = list(map(lambda x: x**2, numeros))
+print('Cuadrados', cuadrado_numeros)
+
+#Pares
+numeros_pares = list(filter(lambda x: x%2 == 0, numeros))
+print('Pares de los numeros hasta 10', numeros_pares)
