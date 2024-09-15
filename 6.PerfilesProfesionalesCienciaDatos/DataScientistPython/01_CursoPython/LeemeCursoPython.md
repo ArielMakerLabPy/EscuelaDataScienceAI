@@ -738,7 +738,6 @@ for numero in fibonacci(10):
 
 ## Uso de funciones en python
 
-
 En Python, uno de los principios fundamentales es el de divide y vencerás. Esto se refiere a dividir el código en porciones más pequeñas para facilitar su legibilidad, mantenimiento y reutilización. Las funciones nos permiten encapsular lógica específica, evitando la duplicación de código.
 
 ### ¿Cómo se definen las funciones en Python?
@@ -827,17 +826,17 @@ def calculadora():
         print("3. Multiplicación")
         print("4. División")
         print("5. Salir")
-      
+  
         opcion = int(input("Ingrese su opción: "))
-      
+  
         if opcion == 5:
             print("Saliendo de la calculadora.")
             break
-      
+  
         if opcion in [1, 2, 3, 4]:
             num1 = float(input("Ingrese el primer número: "))
             num2 = float(input("Ingrese el segundo número: "))
-          
+      
             if opcion == 1:
                 print("La suma es:", suma(num1, num2))
             elif opcion == 2:
@@ -856,10 +855,7 @@ calculadora()
 
 Es crucial tener en cuenta el tipo de datos que se manejan, validar entradas del usuario y asegurarse de que las funciones se llamen correctamente para evitar errores en la ejecución.
 
-
 ## Funciones Lambda y Programación funcional en python
-
-
 
 ### #¿Cómo utilizar lambda para operaciones básicas?
 
@@ -902,9 +898,12 @@ print("Pares:", numeros_pares)
 Como hemos visto, lambda ofrece una forma más sencilla de trabajar con funciones en Python sin comprometer su eficiencia. En la próxima clase, exploraremos temas más complejos donde las funciones serán el foco principal.
 
 
-## Manejo de excepciones en python y uso de pass
-
 ## ¿Cómo realizar una función recursiva en python?
+
+
+
+
+## Manejo de excepciones en python y uso de pass
 
 # Programación orientada a objetos en python
 

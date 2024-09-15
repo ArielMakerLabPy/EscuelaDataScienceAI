@@ -84,3 +84,5 @@ print('Cuadrados', cuadrado_numeros)
 #Pares
 numeros_pares = list(filter(lambda x: x%2 == 0, numeros))
 print('Pares de los numeros hasta 10', numeros_pares)
+
+
