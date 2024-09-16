@@ -86,3 +86,30 @@ numeros_pares = list(filter(lambda x: x%2 == 0, numeros))
 print('Pares de los numeros hasta 10', numeros_pares)
 
 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+factorial_10 = print("El factorial de 10 es:", factorial(10))
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+    
+number = 20
+print("El numero Fibonacci de number es:", fibonacci(number))
+
+def sumatorial(n):
+    if n == 0:
+        return 0
+    else:
+        return n + sumatorial(n-1)
+    
+sumando = 20
+print("El sumatorial de sumando es:", sumatorial(sumando))
