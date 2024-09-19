@@ -836,7 +836,7 @@ def calculadora():
         if opcion in [1, 2, 3, 4]:
             num1 = float(input("Ingrese el primer número: "))
             num2 = float(input("Ingrese el segundo número: "))
-    
+  
             if opcion == 1:
                 print("La suma es:", suma(num1, num2))
             elif opcion == 2:
@@ -899,7 +899,6 @@ Como hemos visto, lambda ofrece una forma más sencilla de trabajar con funcione
 
 ## ¿Cómo realizar una función recursiva en python?
 
-
 La recursividad es una técnica fundamental en programación donde una función se llama a sí misma para resolver problemas complejos de manera más sencilla y estructurada.
 
 ### ¿Cómo se aplica la recursividad en el cálculo del factorial?
@@ -944,10 +943,39 @@ Aquí también se siguen dos casos:
 * **Caso base:** cuando `n` es 0 o 1, la función retorna `n`.
 * **Caso recursivo:** para otros valores de `n`, la función retorna la suma de `fibonacci(n-1)` y `fibonacci(n-2)`.
 
-
 ## Manejo de excepciones en python y uso de pass
 
 
+Las excepciones en Python están organizadas en una jerarquía de clases, donde las excepciones más generales se encuentran en la parte superior y las más específicas en la parte inferior.
+
+Esta organización jerárquica permite a los programadores manejar excepciones de manera más precisa y efectiva.
+
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+transformados = [x * 2 if x % 2 == 0 else x for x in numeros]
+print("Números transformados:", transformados)
+
+```
+
+Por ejemplo, la excepción `Exception` es la clase base para la mayoría de las excepciones, y de ella derivan subclases como `ArithmeticError` y `ValueError`.
+
+Comprender esta jerarquía es crucial para poder manejar las excepciones adecuadamente y elegir las excepciones específicas que se desean capturar.
+
+A continuación se muestra un código que imprime la jerarquía de excepciones en Python:
+
+```python
+def print_exception_hierarchy(exception_class, indent=0):
+    print(' ' * indent + exception_class.__name__)
+    for subclass in exception_class.__subclasses__():
+        print_exception_hierarchy(subclass, indent + 4)
+
+# Imprimir la jerarquía comenzando desde la clase base Exception
+print_exception_hierarchy(Exception)
+```
+
+Este código utiliza recursión para recorrer y mostrar las subclases de excepciones, permitiéndote visualizar cómo están organizadas y relacionadas entre sí.
+
+Entender la jerarquía de excepciones en Python es fundamental para escribir código robusto y manejable. Al conocer las relaciones entre las diferentes excepciones, puedes capturar errores de manera más específica, lo que te permite implementar manejadores de excepciones más precisos y efectivos.
 
 
 # Programación orientada a objetos en python
